@@ -31,7 +31,7 @@
 				<div class="project-content">
 					<h3 class="project-title">Blogr</h3>
 					<p class="project-desc">Neki opis kratki</p>
-					<a href="" class="project-btn">View project</a>
+					<a href="https://tina234.github.io/blogr/" target="_blank" class="project-btn">View project</a>
 				</div>
 			</div>
 			<div class="project">
@@ -41,7 +41,7 @@
 				<div class="project-content">
 					<h3 class="project-title">Coffe shop</h3>
 					<p class="project-desc">Neki opis kratki</p>
-					<a href="" class="project-btn">View project</a>
+					<a href="https://tina234.github.io/coffee_shop/" target="_blank" class="project-btn">View project</a>
 				</div>
 			</div>
 			<div class="project">
@@ -51,7 +51,7 @@
 				<div class="project-content">
 					<h3 class="project-title">Github profile</h3>
 					<p class="project-desc">Neki opis</p>
-					<a href="" class="project-btn">View project</a>
+					<a href="https://github.com/tina234" target="_blank" class="project-btn">View profile</a>
 				</div>
 			</div>
 		</div>
