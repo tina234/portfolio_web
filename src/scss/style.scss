@@ -69,7 +69,7 @@ body, html {
                     margin-right: 8px;
                     background: #362D43;
                     color: #fff;
-                    
+
                     &:focus, &:active, &:target{
                         text-decoration: none;
                         color: #fff;
@@ -182,7 +182,7 @@ body, html {
                 text-align: center;
                 color: #fff;
                 white-space: nowrap;
-                display: block;
+                display: inline-block;
             }
         }
     }
@@ -206,7 +206,7 @@ body, html {
                 line-height: 20px;
             }
         
-            .header-btns button{
+            .header-btns a{
                 padding: 12px 25px;
                 font-size: 16px;
                 line-height: 18px;
@@ -253,7 +253,7 @@ body, html {
                 line-height: 24px;
             }
         
-            .header-btns button {
+            .header-btns a {
                 padding: 10px 20px;
                 font-size: 16px;
                 line-height: 20px;
