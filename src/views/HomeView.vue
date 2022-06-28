@@ -12,7 +12,7 @@
 				</p>
 				<div class="header-btns">
 					<a href="mailto:martina.dejanovic94@gmail.com">Contact me</a>
-					<a href="../assets/blogr.svg" download>View Resume</a>
+					<a href="files/CV.pdf" download>View Resume</a>
 				</div>
 			</div>
 			<div class="bottom-arrow" @click="goToProjects()">
