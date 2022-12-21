@@ -7,12 +7,12 @@
 			<div class="header-content">
 				<h3 class="header-title">Passionate <br> frontend developer</h3>
 				<p class="header-desc">Hello, my name is Martina and I’m a passionate frontend developer from Rijeka, Croatia. 
-				I have experience creating websites and small applications using technologies (HTML, CSS, Vue.js, Git, JSON ...).
+				I have experience creating websites and small applications using various technologies (HTML, CSS, Vue.js, React.js...).
 				My goal is to improve my current skills day by day and I am looking forward to learning from more experienced developers.
 				</p>
 				<div class="header-btns">
 					<a href="mailto:martina.dejanovic94@gmail.com"><span>Contact me</span></a>
-					<a href="files/CV.pdf" download><span>View Resume</span></a>
+					<a href="files/CV Martina Dejanović94.pdf" download><span>View Resume</span></a>
 				</div>
 			</div>
 			<div class="bottom-arrow" @click="goToProjects()">
