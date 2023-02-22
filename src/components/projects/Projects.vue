@@ -6,7 +6,7 @@
 				</div>
 				<div class="project-content">
 					<h3 class="project-title">Blogr</h3>
-					<p class="project-desc">The single-page web site is built in Vue.js framework that offers the user an insight into how the Blogr application works. It demonstrates skills for creating a drop-down menu, simple animations on hover and knowledge of responsiveness.
+					<p class="project-desc">This single-page web site is built in Vue.js framework that offers the user an insight into how the Blogr application works. It demonstrates skills for creating a drop-down menu, simple animations on hover and knowledge of responsiveness.
 					</p>
 					<a href="https://tina234.github.io/blogr/" target="_blank" class="project-btn"><span>View project</span></a>
 				</div>

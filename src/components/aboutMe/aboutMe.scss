@@ -1,17 +1,18 @@
 
 .about-me-content {
-    margin: 90px auto;
+    margin: 70px auto;
     max-width: 1200px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
     .title {
         font-weight: 700;
-        font-size: 50px;
-        line-height: 71px;
-        //color: #1F1C27;
+        font-size: 45px;
+        line-height: 45px;
         color: #4a3d5c;
         margin: 0;
-        margin-bottom: 24px;
 
         .blinking-cursor {
             font-size: 6rem;
@@ -21,16 +22,16 @@
     }
     
     .desc {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 2.5vmin;
+        line-height: 30px;
         color: #43434A;
-        margin: 0;
-        margin-bottom: 32px;
+        margin: 35px 0;
     }        
 
     .my-btns {
         display: flex;
         flex-wrap: nowrap;
+        align-self: center;
 
         a {
             border-radius: 8px;
@@ -90,19 +91,15 @@
             }
         }
     
-    } 
+    }
 }
 
+    
 @media only screen and (max-width: 1300px) {
     .about-me-content {
-        .title {
-            font-size: 40px;
-            line-height: 45px;
-        }
     
         .desc {
-            font-size: 16px;
-            line-height: 20px;
+            line-height: 28px;
         }
     
         .my-btns a{
@@ -115,11 +112,6 @@
 
 @media only screen and (max-width: 850px) {
     .about-me-content {
-        .title {
-            font-size: 28px;
-            line-height: 33px;
-        }
-    
         .desc {
             font-size: 16px;
             line-height: 24px;
@@ -132,3 +124,12 @@
         }
     }
 }
+@media only screen and (max-width: 450px) {
+    .about-me-content {
+        margin: 30px auto;
+        .title {
+            font-size: 30px;
+        }
+    }
+}
+
