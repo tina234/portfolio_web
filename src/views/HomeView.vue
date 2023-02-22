@@ -2,6 +2,7 @@
 	<div class="main-page">
 		<Header></Header>	
 		<AboutMe></AboutMe>
+		<Technologies></Technologies>
 		<Projects></Projects>
 		<!----<div class="bottom-arrow" @click="goToProjects()">
 			<span class="title">About me</span>
@@ -16,14 +17,15 @@
 import Header from "@/components/header/Header.vue"
 import AboutMe from "@/components/aboutMe/AboutMe.vue"
 import Projects from "@/components/projects/Projects.vue"
+import Technologies from "@/components/technologies/Technologies.vue"
 
-const arr = ["Hello!", "My name is Martina.", "I’m a passionate frontend developer."]
+const arr = ["Hello!", "My name is Martina.", "I’m a passionate frontend developer.", "Contact me"]
 
-const goToProjects = () => {
+/*const goToProjects = () => {
 	const element = document.getElementsByClassName("project");
 	window.scrollTo({
 		top: element[0].offsetTop - '50',
 		behavior: 'smooth'
 	});
-}
+}*/
 </script>

@@ -3,7 +3,6 @@
     padding: 30px 24px;
     display: flex;
     align-items: center;
-    position: relative;
     gap: 90px;
 
     .header-img {
@@ -16,9 +15,15 @@
             animation: float 5s infinite;
         } 
     }
-    .typed {
-        font-size: 70px;
-        color: #4a3d5c;
+    .is-typed {
+        width: 100%;
+        max-width: 600px;
+        min-height: 200px;
+
+        .typed {
+            font-size: 9vmin;
+            color: #4a3d5c;
+        }
     }
 }
 
@@ -36,8 +41,26 @@
         padding-bottom: 80px;
  
         .header-img {
-             max-width: 140px;
-             float: right;
-         }
+            max-width: 260px;
+            margin: 0 auto;
+        }
+        .is-typed {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header {
+       display: flex;
+       flex-direction: column;
+
+       .is-typed {
+        width: 100%;
+        max-width: 600px;
+        min-height: 100px;
+        }
     }
 }
