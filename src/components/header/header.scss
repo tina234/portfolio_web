@@ -1,5 +1,6 @@
 .header {
-    background-color: #EEF4FF;
+    //background-color: #EEF4FF;
+    background: #f2f0f5;
     padding: 30px 24px;
     display: flex;
     align-items: center;
@@ -48,6 +49,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 0 auto;
         }
     }
 }

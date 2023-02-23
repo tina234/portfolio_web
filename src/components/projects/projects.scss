@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 80px;
 
-    :nth-child(even) {
+    :nth-child(odd) {
         flex-direction: row-reverse;
 
         .project-img {
@@ -15,10 +15,17 @@
         }
     }
 
+    h1 {
+        color: #4a3d5c;
+        font-size: 45px;
+        text-align: center;
+        margin: 0;
+    }
+
     .project {
         display: flex;
         align-items: center;
-
+    
         .project-img {
             margin-right: 70px;
             border-radius: 16px;
@@ -95,7 +102,6 @@
     }
 }
 
-
 @media only screen and (max-width: 850px) {
    .projects {
        margin: 40px auto;
@@ -106,10 +112,12 @@
             .project-img {
                 margin-bottom: 16px;
                 margin-right: 0px;
-                margin-left: 0;
+                margin-left: 0px;
             }
 
             .project-content {
+                padding: 0 15px;
+
                 .project-btn {
                     padding: 14px 24px;
                     font-size: 14px;
@@ -117,14 +125,13 @@
                 }
 
                 .project-title {
-                    font-size: 24px;
-                    line-height: 28px;
+                    font-size: 25px;
                     margin-bottom: 10px;
                 }
                 
                 .project-desc {
-                    font-size: 17px;
-                    line-height: 22px;
+                    font-size: 19px;
+                    line-height: 28px;
                     margin-bottom: 12px;
                 }
             }
@@ -135,5 +142,9 @@
 @media only screen and (max-width: 450px) {
     .projects {
         margin: 40px auto;
+
+        h1 {
+            font-size: 30px;
+        }
     }
 }

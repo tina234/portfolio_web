@@ -1,7 +1,7 @@
 .techn-content {
-    background: #EEF4FF;
+    //background: #EEF4FF;
+    background: #f2f0f5;
     padding: 50px 20px;
-    position: relative;
 
     .main-box {
         max-width: 1440px;
@@ -101,26 +101,6 @@
     }    
 }
 
-@media only screen and (max-width: 850px) {
-    .bottom-arrow {
-        bottom: -20px;
-
-        .vector {
-            height: 40px;
-            width: 40px;
-
-            img {
-                width: 16px
-            }
-        }
-
-        .title {
-            font-size: 16px;
-            line-height: 20px;
-        }
-    }
-}
-
 @media only screen and (max-width: 900px) {
     .techn-content {
         .main-box {
@@ -145,6 +125,25 @@
     }  
 }
 
+@media only screen and (max-width: 850px) {
+    .bottom-arrow {
+        bottom: -20px;
+
+        .vector {
+            height: 40px;
+            width: 40px;
+
+            img {
+                width: 16px
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}
 
 @media only screen and (max-width: 450px) {
     .techn-content {

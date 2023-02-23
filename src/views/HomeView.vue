@@ -4,6 +4,7 @@
 		<AboutMe></AboutMe>
 		<Technologies></Technologies>
 		<Projects></Projects>
+		<Footer></Footer>
 		<!----<div class="bottom-arrow" @click="goToProjects()">
 			<span class="title">About me</span>
 			<span class="vector">
@@ -18,6 +19,7 @@ import Header from "@/components/header/Header.vue"
 import AboutMe from "@/components/aboutMe/AboutMe.vue"
 import Projects from "@/components/projects/Projects.vue"
 import Technologies from "@/components/technologies/Technologies.vue"
+import Footer from "@/components/footer/Footer.vue"
 
 const arr = ["Hello!", "My name is Martina.", "I’m a passionate frontend developer.", "Contact me"]
 
