@@ -31,9 +31,12 @@
             border-radius: 16px;
             flex-basis: 400px;
             flex-grow: 1;
+            overflow: hidden;
+            max-height: 400px;
 
             img {
                 width: 100%;
+                object-fit: cover;
             }
         }
 
@@ -107,8 +110,6 @@
        margin: 40px auto;
 
         .project {
-            flex-wrap: wrap;
-
             .project-img {
                 margin-bottom: 16px;
                 margin-right: 0px;
@@ -137,6 +138,14 @@
             }
         }
    }
+}
+
+@media only screen and (max-width: 700px) {
+    .projects {
+        .project {
+            flex-wrap: wrap;
+        }
+    }  
 }
 
 @media only screen and (max-width: 450px) {

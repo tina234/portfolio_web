@@ -22,7 +22,7 @@
     }
     
     .desc {
-        font-size: 2.5vmin;
+        font-size: 19px;
         line-height: 30px;
         color: #43434A;
         margin: 35px 0;
@@ -97,7 +97,6 @@
     
 @media only screen and (max-width: 1300px) {
     .about-me-content {
-    
         .desc {
             line-height: 28px;
         }
@@ -129,6 +128,12 @@
         margin: 30px auto;
         .title {
             font-size: 30px;
+        }
+        .desc {
+            text-align: start;
+        }
+        .my-btns {
+            align-self: flex-start;
         }
     }
 }

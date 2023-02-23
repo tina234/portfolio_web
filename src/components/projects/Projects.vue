@@ -24,11 +24,11 @@
 			</div>
 			<div class="project">
 				<div class="project-img">
-					<img src="../../assets/github.svg" alt="">
+					<img src="../../assets/tic-tac-toe.jpg" alt="">
 				</div>
 				<div class="project-content">
-					<h3 class="project-title">Countries</h3>
-					<p class="project-desc">Simple web site presenting coffee products made in the Vue.js framework using his libereries like vuex and router. In vuex, I use a couple of modules with JSON data in them. A router is used for multiple views in which I have multiple components.</p>
+					<h3 class="project-title">Tic-tac-toe</h3>
+					<p class="project-desc">Project that presents a tic-tac-toe game. The user has two modes to choose from, play against the CPU or another player. It's also made in Vue.js framework and mostly I needed to use JavaScript logic.</p>
 					<a href="https://tina234.github.io/tic-tac-toe/" target="_blank" class="project-btn"><span>View project</span></a>
 				</div>
 			</div>
