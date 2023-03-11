@@ -9,7 +9,7 @@
 		</p>
 		<div class="my-btns">
 			<a href="mailto:martina.dejanovic94@gmail.com"><span>Contact me</span></a>
-			<a href="files/CV_Martina_Dejanović(english).pdf" download><span>View Resume</span></a>
+			<a href="files/CV_Martina_Dejanović(eng).pdf" download><span>View Resume</span></a>
 		</div>
 	</div>
 </template>
