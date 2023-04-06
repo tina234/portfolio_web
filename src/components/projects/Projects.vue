@@ -32,16 +32,16 @@
 					<a href="https://tina234.github.io/tic-tac-toe/" target="_blank" class="project-btn"><span>View project</span></a>
 				</div>
 			</div>
-			<!----<div class="project">
+			<div class="project">
 				<div class="project-img">
-					<img src="../../assets/github.svg" alt="">
+					<img src="../../assets/countries-flag.jpg" alt="">
 				</div>
 				<div class="project-content">
-					<h3 class="project-title">Github profile</h3>
-					<p class="project-desc">Here are some more projects on my profile that haven't been published on github pages. Check it out. </p>
-					<a href="https://github.com/tina234" target="_blank" class="project-btn"><span>View profile</span></a>
+					<h3 class="project-title">Countries of the world</h3>
+					<p class="project-desc">This project shows a list of all the countries of the world that you can search by name or by specific region/continent. The main goal was to show the connection to the rest API.</p>
+					<a href=" https://tina234.github.io/vue-countries/" target="_blank" class="project-btn"><span>View project</span></a>
 				</div>
-			</div>-->
+			</div>
 		</div>
 </template>
 
